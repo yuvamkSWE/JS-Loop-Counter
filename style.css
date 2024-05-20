@@ -8,3 +8,25 @@ html{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.loop-number{
+    font-size: 100px;
+    padding-top: 240px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.loop-btn{
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+}
+.loop-btn:hover{
+    background: linear-gradient( #70c6ff30, #5b79ff29);
+    padding: 15px;
+    border-color: rgba(0, 0, 0, 0.091);
+}
