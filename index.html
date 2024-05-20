@@ -2,33 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-
         <section class="loop-counter">
             <div class="loop-number-section">
-                <h1 class="loop-number">
+                <h1 id="loop-number" class="loop-number">
                     0
                 </h1>
             </div>
             <div class="loop-buttons">
-                <button class="loop-btn">
+                <button class="loop-btn" onclick="decrease();">
                     Decrease
                 </button>
-                <button class="loop-btn">
+                <button class="loop-btn" onclick="reset();">
                     Reset
                 </button>
-                <button class="loop-btn">
+                <button class="loop-btn" onclick="increase();">
                     Increase
                 </button>
             </div>
         </section>
-
-
     </main>
     <script src="script.js"></script>
 </body>
